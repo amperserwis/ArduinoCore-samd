@@ -34,6 +34,14 @@
 extern void pinMode( uint32_t dwPin, uint32_t dwMode ) ;
 
 /**
+ * \brief Write a HIGH or a LOW value to a digital pin but faster. Requires the pin number to be a constant
+ *
+ * \param dwPin the pin number
+ * \param dwVal HIGH or LOW
+ */
+extern void digitalWriteFast(uint32_t dwPin, uint32_t dwVal);
+
+/**
  * \brief Write a HIGH or a LOW value to a digital pin.
  *
  * If the pin has been configured as an OUTPUT with pinMode(), its voltage will be set to the

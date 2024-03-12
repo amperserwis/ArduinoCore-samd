@@ -1,4 +1,28 @@
-# MattairTech SAM D|L|C Core for Arduino
+# Fab SAM D|L|C Core for Arduino
+
+## Quitck installation guide
+
+You can find a guide here:
+https://gitlab.cba.mit.edu/quentinbolsee/Arduino-SAM-tutorial/
+
+## Summary
+
+This repository is a Fab community fork of the original [MattairTech SAM D|L|C Core](https://github.com/mattairtech/ArduinoCore-samd).
+
+It offers support for:
+- D11C14A / D11C14AM / D11C14AS
+- x21E
+- x21G
+- x21J
+- D51G
+- D51J
+
+To install, simply add the following URL to "Additional Boards Manager URLs" in the Arduino IDE:
+
+https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/json/package_Fab_SAM_index.json
+
+
+# Description
 
 The MattairTech SAM D|L|C Core for Arduino is a fork from arduino/ArduinoCore-samd
 on GitHub, which will be used to maintain Arduino support for MattairTech boards

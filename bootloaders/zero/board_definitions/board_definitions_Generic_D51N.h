@@ -115,11 +115,7 @@
  * lacks USB, so set to SAM_BA_UART_ONLY in this case. By default,
  * SAM_BA_USBCDC_ONLY is set (SAM_BA_UART_ONLY with the C21).
  */
-#if (SAMC21)
-  #define SAM_BA_INTERFACE              SAM_BA_UART_ONLY
-#else
-  #define SAM_BA_INTERFACE              SAM_BA_USBCDC_ONLY
-#endif
+#define SAM_BA_INTERFACE              SAM_BA_USBCDC_ONLY
 
 /* If SAM_BA_INTERFACE_USE_PIN is defined, then the associated pin controls which
  * SAM-BA interface is used (if SAM_BA_BOTH_INTERFACES is defined). If only one
@@ -165,11 +161,7 @@
  * not suspended), where it will calibrate against the USB SOF signal.
  */
 #ifndef CLOCKCONFIG_CLOCK_SOURCE
-  #if (SAMC21)
-    #define CLOCKCONFIG_CLOCK_SOURCE	CLOCKCONFIG_INTERNAL
-  #else
-    #define CLOCKCONFIG_CLOCK_SOURCE	CLOCKCONFIG_INTERNAL_USB
-  #endif
+  #define CLOCKCONFIG_CLOCK_SOURCE	CLOCKCONFIG_INTERNAL_USB
 #endif
 
 /* If CLOCKCONFIG_HS_CRYSTAL is defined, then HS_CRYSTAL_FREQUENCY_HERTZ
@@ -208,13 +200,13 @@
  * Size: ~228B. By default, USB_VENDOR_STRINGS_ENABLED is defined (including 4KB).
  */
 #define USB_VENDOR_STRINGS_ENABLED
-#define STRING_MANUFACTURER "MattairTech LLC"
+#define STRING_MANUFACTURER "Fab Foundation"
 #define STRING_PRODUCT "Generic SAMD51N"
 
 /* If USB CDC is used, then the USB vendor ID (VID) and product ID (PID) must be set. */
 #define USB_VID_HIGH   0x16
 #define USB_VID_LOW    0xD0
-#define USB_PID_HIGH   0x05
+#define USB_PID_HIGH   0x95
 #define USB_PID_LOW    0x57
 
 /* BOOT_USART_SERCOM_INSTANCE must be a single digit representing the SERCOM number.

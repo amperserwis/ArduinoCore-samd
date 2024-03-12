@@ -2,6 +2,7 @@
   Copyright (c) 2015 Arduino LLC.  All right reserved.
   Copyright (c) 2015 Atmel Corporation/Thibaut VIARD.  All right reserved.
   Copyright (c) 2017 MattairTech LLC. All right reserved.
+  Copyright (c) 2020 Fab Foundation All right reserved.
 
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -20,44 +21,26 @@
 
 #include <sam.h>
 
-#if defined(BOARD_ID_arduino_zero)
-  #include "board_definitions/board_definitions_arduino_zero.h"
-#elif defined(BOARD_ID_genuino_zero)
-  #include "board_definitions/board_definitions_genuino_zero.h"
-#elif defined(BOARD_ID_arduino_mkr1000)
-  #include "board_definitions/board_definitions_arduino_mkr1000.h"
-#elif defined(BOARD_ID_genuino_mkr1000)
-  #include "board_definitions/board_definitions_genuino_mkr1000.h"
-#elif defined(BOARD_ID_arduino_mkrzero)
-  #include "board_definitions/board_definitions_arduino_mkrzero.h"
-#elif defined(BOARD_ID_arduino_mkrfox1200)
-  #include "board_definitions/board_definitions_arduino_mkrfox1200.h"
-#elif defined(BOARD_ID_Xeno)
-  #include "board_definitions/board_definitions_Xeno.h"
-#elif defined(BOARD_ID_Xeno_Mini)
-  #include "board_definitions/board_definitions_Xeno_Mini.h"
-#elif defined(BOARD_ID_MT_D21E_rev_A)
-  #include "board_definitions/board_definitions_MT_D21E_rev_A.h"
-#elif defined(BOARD_ID_MT_D21E_rev_B)
-  #include "board_definitions/board_definitions_MT_D21E_rev_B.h"
-#elif defined(BOARD_ID_MT_D11)
-  #include "board_definitions/board_definitions_MT_D11.h"
-#elif defined(BOARD_ID_Generic_x21E)
+#if defined(BOARD_ID_Generic_x21E)
   #include "board_definitions/board_definitions_Generic_x21E.h"
 #elif defined(BOARD_ID_Generic_x21G)
   #include "board_definitions/board_definitions_Generic_x21G.h"
 #elif defined(BOARD_ID_Generic_x21J)
   #include "board_definitions/board_definitions_Generic_x21J.h"
+#elif defined(BOARD_ID_Generic_D51G)
+  #include "board_definitions/board_definitions_Generic_D51G.h"
+#elif defined(BOARD_ID_Generic_D51J)
+  #include "board_definitions/board_definitions_Generic_D51J.h"
+#elif defined(BOARD_ID_Generic_D51N)
+  #include "board_definitions/board_definitions_Generic_D51N.h"
+#elif defined(BOARD_ID_Generic_D51P)
+  #include "board_definitions/board_definitions_Generic_D51P.h"
 #elif defined(BOARD_ID_Generic_D11D14AM)
   #include "board_definitions/board_definitions_Generic_D11D14AM.h"
 #elif defined(BOARD_ID_Generic_D11D14AS)
   #include "board_definitions/board_definitions_Generic_D11D14AS.h"
 #elif defined(BOARD_ID_Generic_D11C14A)
   #include "board_definitions/board_definitions_Generic_D11C14A.h"
-#elif defined(BOARD_ID_arduino_m0)
-  #include "board_definitions/board_definitions_arduino_m0.h"
-#elif defined(BOARD_ID_arduino_m0_pro)
-  #include "board_definitions/board_definitions_arduino_m0_pro.h"
 #else
   #error You must define a BOARD_ID and add the corresponding definitions in board_definitions.h
 #endif
@@ -125,7 +108,7 @@
 #elif (SAML21 || SAMC21 || SAMD51)
   #define BOOT_DOUBLE_TAP_ADDRESS           (HSRAM_ADDR + HSRAM_SIZE - 4)
 #else
-  #error "board_definitions.h: Missing dependency or unsupported chip. Please install CMSIS-Atmel from MattairTech (see Prerequisites for Building in README.md)."
+  #error "board_definitions.h: Missing dependency or unsupported chip. Please install CMSIS-Atmel (see Prerequisites for Building in README.md)."
 #endif
 
 #define BOOT_DOUBLE_TAP_DATA              (*((volatile uint32_t *) BOOT_DOUBLE_TAP_ADDRESS))

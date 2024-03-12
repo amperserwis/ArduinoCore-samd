@@ -22,12 +22,12 @@ VERSION=`grep version= platform.txt | sed 's/version=//g'`
 PWD=`pwd`
 FOLDERNAME=`basename $PWD`
 THIS_SCRIPT_NAME=`basename $0`
-FILENAME=MattairTech_SAM_DLC_Core_for_Arduino-$VERSION.tar.bz2
+FILENAME=Fab_SAM_Core_for_Arduino-$VERSION.tar.bz2
 
 rm -f $FILENAME
 
 cd ..
-tar --transform "s|$FOLDERNAME|$FOLDERNAME-$VERSION|g"  --exclude=extras/** --exclude=.git* --exclude=.idea -cjf $FILENAME $FOLDERNAME
+tar --transform "s|$FOLDERNAME|$FOLDERNAME-$VERSION|g" --exclude=extras* --exclude=tools* --exclude=.git* --exclude=*.tar.bz2 --exclude=.idea --exclude=json* -cjf $FILENAME $FOLDERNAME
 cd -
 
 mv ../$FILENAME .
@@ -39,4 +39,4 @@ cat extras/package_index.json.Release.template |
 sed "s/%%VERSION%%/${VERSION}/" |
 sed "s/%%FILENAME%%/${FILENAME}/" |
 sed "s/%%CHECKSUM%%/${CHKSUM}/" |
-sed "s/%%SIZE%%/${SIZE}/" > package_MattairTech_SAM_DLC_Core_for_Arduino-${VERSION}_index.json
+sed "s/%%SIZE%%/${SIZE}/" > json/package_Fab_SAM_Core_for_Arduino-${VERSION}_index.json

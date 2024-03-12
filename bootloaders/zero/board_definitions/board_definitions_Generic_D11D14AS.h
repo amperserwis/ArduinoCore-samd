@@ -197,13 +197,13 @@
  * Size: ~228B. By default, USB_VENDOR_STRINGS_ENABLED is defined (including 4KB).
  */
 #define USB_VENDOR_STRINGS_ENABLED
-#define STRING_MANUFACTURER "MattairTech LLC"
+#define STRING_MANUFACTURER "Fab Foundation"
 #define STRING_PRODUCT "Generic SAMD11D14AS"
 
 /* If USB CDC is used, then the USB vendor ID (VID) and product ID (PID) must be set. */
 #define USB_VID_HIGH   0x16
 #define USB_VID_LOW    0xD0
-#define USB_PID_HIGH   0x05
+#define USB_PID_HIGH   0x25
 #define USB_PID_LOW    0x57
 
 /* BOOT_USART_SERCOM_INSTANCE must be a single digit representing the SERCOM number.

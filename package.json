@@ -1,0 +1,15 @@
+{
+  "name": "framework-arduino-samd-fabsam",
+  "version": "1.16.18",
+  "description": "Arduino Wiring-based Framework for Microchip SAM D microcontrollers",
+  "keywords": [
+    "framework",
+    "arduino",
+    "microchip",
+    "samd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam.git"
+  }
+}

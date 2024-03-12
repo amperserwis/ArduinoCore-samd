@@ -21,8 +21,8 @@
  * See README.md for documentation and pin mapping information
  */
 
-#ifndef _VARIANT_MATTAIRTECH_D11D14AS_
-#define _VARIANT_MATTAIRTECH_D11D14AS_
+#ifndef _VARIANT_GENERIC_D11D14AS_
+#define _VARIANT_GENERIC_D11D14AS_
 
 /* This variant requires the MattairTech SAM D|L|C Core for Arduino >= 1.6.18-beta-b1.
  * The format is different than the stock Arduino SAMD core,
@@ -371,4 +371,4 @@ extern Uart Serial2;
 #define Serial                      Serial1
 #endif
 
-#endif /* _VARIANT_ARDUINO_ZERO_ */
+#endif /* _VARIANT_GENERIC_D11D14AS_ */

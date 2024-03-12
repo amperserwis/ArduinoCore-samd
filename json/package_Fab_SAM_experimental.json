@@ -1,0 +1,760 @@
+{
+    "packages": [
+        {
+            "name": "Fab_SAM_Arduino",
+            "maintainer": "Fab Foundation",
+            "websiteURL": "https://github.com/qbolsee/ArduinoCore-fab-sam",
+            "email": "",
+            "help": {
+                "online": ""
+            },
+            "platforms": [
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.6.18-alpha1",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha1/Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
+                    "checksum": "SHA-256:5745e58fe3d6fc0b47b7f19f241684219e9df623eb6da033d7247e8e244b9bfd",
+                    "size": "357035",
+                    "boards": [
+                        {
+                            "name": "Generic_D21E"
+                        },
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-mattairtech-3"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.6.18-alpha2",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha2/Fab_SAM_Core_for_Arduino-1.6.18-alpha2.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha2.tar.bz2",
+                    "checksum": "SHA-256:76cf96905c6a70090a212f1309014bf4e7e94189d2dc88de90d8b95d1997c500",
+                    "size": "356816",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-mattairtech-3"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.7.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.7.0/Fab_SAM_Core_for_Arduino-1.7.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.7.0.tar.bz2",
+                    "checksum": "SHA-256:84e5d6919fdea31c5a56420d9a8d8a0347196675f4b7b96b0e99c20bdfecae57",
+                    "size": "356441",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.8.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.8.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.8.0/Fab_SAM_Core_for_Arduino-1.8.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.8.0.tar.bz2",
+                    "checksum": "SHA-256:a674d92cbd7544bd087b540ca1708633840104c2cd1f1940fda20e4c88f30bd9",
+                    "size": "356161",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.9.0-Jakey",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.8.0/Fab_SAM_Core_for_Arduino-1.8.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.8.0.tar.bz2",
+                    "checksum": "SHA-256:a674d92cbd7544bd087b540ca1708633840104c2cd1f1940fda20e4c88f30bd9",
+                    "size": "356161",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.9.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.9.0/Fab_SAM_Core_for_Arduino-1.9.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.9.0.tar.bz2",
+                    "checksum": "SHA-256:f038520e059002b40622bac8ead9d91e401cf775e2b1ad763412a230a41bebe3",
+                    "size": "356933",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.10.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.10.0/Fab_SAM_Core_for_Arduino-1.10.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.10.0.tar.bz2",
+                    "checksum": "SHA-256:99fb9cc8c0ab2d9774c047f4647add031864099943c2377544ae7b9b4fa98b5a",
+                    "size": "356729",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "edbg",
+                            "version": "0.50.0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.11.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.11.0/Fab_SAM_Core_for_Arduino-1.11.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.11.0.tar.bz2",
+                    "checksum": "SHA-256:f015d271ab6f1d0b785c8a0c8c5ea55df3d2d7e810250ab7b2718c9b12db200d",
+                    "size": "356710",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "edbg",
+                            "version": "0.51.0"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "edbg",
+                    "version": "0.51.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-win32.zip",
+                            "archiveFileName": "edbg-0.51.0-win32.zip",
+                            "checksum": "SHA-256:8dc289bf1c85fe522aae4bae08f673d364d02b74d0aef75c3eb40c1632f9bf10",
+                            "size": "148847"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-x86_64-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.51.0-x86_64-linux.tar.bz2",
+                            "checksum": "SHA-256:ebbddae462f52a347a7548b59984a6489899bb5462de5ff26645f59bcfc27e37",
+                            "size": "53512"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-i686-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.51.0-i686-linux.tar.bz2",
+                            "checksum": "SHA-256:ebbddae462f52a347a7548b59984a6489899bb5462de5ff26645f59bcfc27e37",
+                            "size": "53512"
+                        },
+                        {
+                            "host": "i386-apple-darwin11",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-i386-apple-darwin11.tar.bz2",
+                            "archiveFileName": "edbg-0.51.0-i386-apple-darwin11.tar.bz2",
+                            "checksum": "SHA-256:cc69fba2bfdbbaf8a187ca5c8ad1f358be948e8ccba39da32b243857addc32b4",
+                            "size": "44850"
+                        }
+                    ]
+                },
+                {
+                    "name": "edbg",
+                    "version": "0.50.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-win32.zip",
+                            "archiveFileName": "edbg-0.50.0-win32.zip",
+                            "checksum": "SHA-256:c26c964c0635363ce3b947cf0b8995be33455d09cc42e506609ba65d97eb9a24",
+                            "size": "148852"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-x86_64-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.50.0-x86_64-linux.tar.bz2",
+                            "checksum": "SHA-256:822936e2472a3ff70d00eb2eae5ccf0938ae078ccf8dcefb48bec570559b2c9f",
+                            "size": "53577"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-i686-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.50.0-i686-linux.tar.bz2",
+                            "checksum": "SHA-256:7c6547be1a5c651865243ab835564b5b71b7d5cab6d6cbf782ef5170e350adad",
+                            "size": "53558"
+                        },
+                        {
+                            "host": "i386-apple-darwin11",
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-i386-apple-darwin11.tar.bz2",
+                            "archiveFileName": "edbg-0.50.0-i386-apple-darwin11.tar.bz2",
+                            "checksum": "SHA-256:f5797dc582f625a7d82e9e73cf4311be50998acf601aa3e9251c23e4bee025e4",
+                            "size": "44141"
+                        }
+                    ]
+                },
+                {
+                    "name": "bossac",
+                    "version": "1.7.0-mattairtech-3",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
+                            "checksum": "SHA-256:81e5fc6577135b548b3154035742826e855eba257cc2f4c8f98f32e8f82b8b1e",
+                            "size": "326228"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:c1156472f375626e6494a06787e1989abdc88cf091b554b45015c4ef698fbcb4",
+                            "size": "37896"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:c4e346ce1851c4202111da34db9c47a7f15f15b9a0110040c6d343ca3b0ed8d3",
+                            "size": "40192"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
+                            "checksum": "SHA-256:0fe5cc3c8575b6747bae471582791ae36509aef65af156a9cad58b42c2c20200",
+                            "size": "30073"
+                        }
+                    ]
+                },
+                {
+                    "name": "bossac",
+                    "version": "1.8.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-windows.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-windows.tar.gz",
+                            "checksum": "SHA-256:c2dee790792eb9d38fe716903798e18c91bd25b6718e89d8b177ebe4e5a55034",
+                            "size": "347551"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-x86_64-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:432faadba16b959013aa2905e69a94470b84ade4becffd92b39dcadff283ed3b",
+                            "size": "38161"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-i686-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-i686-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:52d7e66d4880eeb4868f77b38ae676a5715cf7e192a1a7f6d74c867aaa3eefca",
+                            "size": "40405"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-mac-os.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-mac-os.tar.gz",
+                            "checksum": "SHA-256:fc2baa24fac7f41303ac2952c92704f23129e26090b048e693e0d202a1bbf613",
+                            "size": "30052"
+                        }
+                    ]
+                },
+                {
+                    "name": "bossac",
+                    "version": "1.9.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.zip",
+                            "archiveFileName": "bossac-1.9.0-windows.zip",
+                            "checksum": "SHA-256:1677e81bde9c105399f18e8db59089a2464085c4bb250baaefad13a939330b14",
+                            "size": "347565"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
+                            "archiveFileName": "bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
+                            "checksum": "SHA-256:b55a88b5b431ac7d5367ede0a8a5cbded2ad9f6c5ecede906dacfbb52578f428",
+                            "size": "38374"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.bz2",
+                            "archiveFileName": "bossac-1.9.0-i686-linux-gnu.tar.bz2",
+                            "checksum": "SHA-256:4f7553978ef4d8e9cbdafd4badf598cdc9332753cf6c3d67c65633e6640783f8",
+                            "size": "40871"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.bz2",
+                            "archiveFileName": "bossac-1.9.0-mac-os.tar.bz2",
+                            "checksum": "SHA-256:cfead2275d1509ab8122d2dc5e4e899d3dac41e8937d46248f271fa6dcc18f73",
+                            "size": "31120"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS-Atmel",
+                    "version": "1.0.0-mattairtech-2",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

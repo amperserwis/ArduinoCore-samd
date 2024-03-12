@@ -1,3 +1,6 @@
+1.6.18 (August 26, 2021):
+* Fix a critical bug with the USB CDC where a packet of exactly 64 bytes gets stuck in a buffer.
+
 Up next:
 * **Add MicroPython support.** Add Demo sketch with Arduino shell and Python interpreter.
 * Add QSPI driver with XIP (DDR support only when the MCU runs at 48MHz) for the D51.
@@ -187,7 +190,7 @@ Up next:
   * Bootloader: 32Khz external oscillator is now used, improves USB clock. Thanks @aethaniel
   * Bootloader: Clean up of makefiles and file organization. Thanks @aethaniel
   * Small fix to USBHost example "USB_desc.ino". Thanks @bbx10
-  * USBHost: USB-Keyboard right shift key was ignored. Thanks @bbx10 
+  * USBHost: USB-Keyboard right shift key was ignored. Thanks @bbx10
   * Wire library now support multiple instances in variant. Thanks @spiderkeys
   * Ported some SerialUSB API (readBreak(), baud(), stopbits(), paritytype(), numbits(), dtr(), rts())
 * Merged in changes from upstream SAMD CORE 1.6.4 2016.02.19:

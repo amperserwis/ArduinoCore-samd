@@ -30,6 +30,26 @@ void pinMode( uint32_t ulPin, uint32_t ulMode )
   pinPeripheral(ulPin, ulMode);
 }
 
+inline __attribute__((always_inline)) void digitalWriteFast( uint32_t ulPin, uint32_t ulVal )
+{
+#if defined(_VARIANT_GENERIC_D11C14A_) || defined(_VARIANT_GENERIC_D11D14AM_) || defined(_VARIANT_GENERIC_D11D14AS_) || defined(_VARIANT_GENERIC_XX1E_)
+  // Only PORT A
+  if ( ulVal == HIGH ) {
+    PORT_IOBUS->Group[PORTA].OUTSET.reg = (1ul << ulPin);
+  } else {
+    PORT_IOBUS->Group[PORTA].OUTCLR.reg = (1ul << ulPin);
+  }
+#else
+  uint8_t pinPort = GetPort(ulPin);
+  uint8_t pinNum = GetPin(ulPin);
+  if ( ulVal == HIGH ) {
+    PORT_IOBUS->Group[pinPort].OUTSET.reg = (1ul << pinNum) ;
+  } else {
+    PORT_IOBUS->Group[pinPort].OUTCLR.reg = (1ul << pinNum) ;
+  }
+#endif
+}
+
 void digitalWrite( uint32_t ulPin, uint32_t ulVal )
 {
   uint8_t pinPort = GetPort(ulPin);
@@ -106,4 +126,3 @@ int digitalRead( uint32_t ulPin )
 #ifdef __cplusplus
 }
 #endif
-
